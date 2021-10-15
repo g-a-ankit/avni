@@ -46,7 +46,11 @@ const Menu = () => {
       link: `${subRoutes.PPRKF.installation}`,
     },
     { img: operation, text: "Operation", link: `${subRoutes.PPRKF.operation}` },
-    { img: service, text: "Service Accessories", link: "/service" },
+    {
+      img: service,
+      text: "Service Accessories",
+      link: `${subRoutes.PPRKF.service}`,
+    },
   ];
   const datas = menus.map((menu) => (
     <Wrap>
