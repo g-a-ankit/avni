@@ -24,6 +24,7 @@ import Historical from "./Operations/Historical";
 import Analysis from "./Operations/Analysis";
 import styled from "styled-components";
 import "./menu.css";
+import { subRoutes } from "../../common/constants";
 
 const Operation = () => {
   const [redirect, setRedirect] = useState(false);
@@ -33,7 +34,7 @@ const Operation = () => {
   };
   let { path, url } = useRouteMatch();
   if (redirect) {
-    return <Redirect to="/menu" />;
+    return <Redirect to={subRoutes.PPRKF.menu} />;
   }
 
   return (

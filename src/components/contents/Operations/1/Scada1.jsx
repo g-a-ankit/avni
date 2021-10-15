@@ -15,7 +15,7 @@ const Scada1 = () => {
         <Image2 src={img2} />
         <Image3 src={img3} />
       </ImageWrapper>
-      <Button route="/operation" />
+      <Button route={subRoutes.PPRKF.operation} />
     </SCADA>
   );
 };

@@ -17,6 +17,7 @@ import Commissioning from "./components/contents/Commissioning";
 import Installation from "./components/contents/Installation";
 import Service from "./components/contents/Service";
 import "./components/contents/menu.css";
+import { subRoutes } from "./common/constants";
 
 function App() {
   return (
@@ -26,13 +27,13 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/menu">
+          <Route exact path={subRoutes.PPRKF.menu}>
             <Menu />
           </Route>
-          <Route path="/operation">
+          <Route path={subRoutes.PPRKF.operation}>
             <Operation />
           </Route>
-          <Route path="/about">
+          <Route path={subRoutes.PPRKF.about}>
             <About />
           </Route>
           <Route path="/prerequisites">

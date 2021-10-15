@@ -21,6 +21,7 @@ import Symbol from "./Prerequisites/2";
 import Safety from "./Prerequisites/3";
 import Risk from "./Prerequisites/4";
 import "./menu.css";
+import { subRoutes } from "../../common/constants";
 
 const Prerequisites = () => {
   const [redirect, setRedirect] = useState(false);
@@ -30,7 +31,7 @@ const Prerequisites = () => {
   };
   let { path, url } = useRouteMatch();
   if (redirect) {
-    return <Redirect to="/menu" />;
+    return <Redirect to={subRoutes.PPRKF.menu} />;
   }
 
   return (

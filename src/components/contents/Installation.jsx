@@ -21,6 +21,7 @@ import Unpacking from "./installation/2";
 import Setting from "./installation/3";
 import Connections from "./installation/4";
 import "./menu.css";
+import { subRoutes } from "../../common/constants";
 
 const Installation = () => {
   const [redirect, setRedirect] = useState(false);
@@ -30,7 +31,7 @@ const Installation = () => {
   };
   let { path, url } = useRouteMatch();
   if (redirect) {
-    return <Redirect to="/menu" />;
+    return <Redirect to={subRoutes.PPRKF.menu} />;
   }
 
   return (

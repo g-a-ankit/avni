@@ -3,10 +3,11 @@ import logo from "../assets/images/salvin logo.svg";
 import { Redirect } from "react-router-dom";
 import arrow from "../assets/images/arrow.svg";
 import "../responsive.css";
+import { subRoutes } from "../common/constants";
 
 const Home = () => {
   const [changePage, setChangePage] = useState(false);
-  if (changePage) return <Redirect to="/menu" />;
+  if (changePage) return <Redirect to={subRoutes.PPRKF.menu} />;
   return (
     <div className="home">
       <header>

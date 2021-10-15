@@ -25,6 +25,7 @@ import Overview from "./About/1";
 import Identification from "./About/2";
 import Specifications from "./About/3";
 import "./menu.css";
+import { subRoutes } from "../../common/constants";
 
 const About = () => {
   const [redirect, setRedirect] = useState(false);
@@ -37,7 +38,7 @@ const About = () => {
   console.log(useLocation());
   console.log("url", path, url);
   if (redirect) {
-    return <Redirect to="/menu" />;
+    return <Redirect to={subRoutes.PPRKF.menu} />;
   }
 
   return (

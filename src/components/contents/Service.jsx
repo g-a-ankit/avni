@@ -25,7 +25,7 @@ import "./menu.css";
 import styled from "styled-components";
 import axios from "axios";
 import cogoToast from "cogo-toast";
-
+import { subRoutes } from "../../common/constants";
 const Service = () => {
   const [redirect, setRedirect] = useState(false);
   const name = useRef();
@@ -83,7 +83,7 @@ const Service = () => {
   };
   let { path, url } = useRouteMatch();
   if (redirect) {
-    return <Redirect to="/menu" />;
+    return <Redirect to={subRoutes.PPRKF.menu} />;
   }
 
   return (

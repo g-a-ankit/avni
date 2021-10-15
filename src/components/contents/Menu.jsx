@@ -20,7 +20,7 @@ import curve from "../../assets/images/menu/curve.png";
 import logoFooter from "../../assets/images/salvin.svg";
 import aplos from "../../assets/images/aplos.svg";
 import "../../slideDown.css";
-
+import { subRoutes } from "../../common/constants";
 const responsive = {
   0: { items: 1 },
   568: { items: 2 },
@@ -37,7 +37,7 @@ const Menu = () => {
     },
     { img: commissioning, text: "Commissioning", link: "/commissioning" },
     { img: installation, text: "Installation", link: "/installation" },
-    { img: operation, text: "Operation", link: "/operation" },
+    { img: operation, text: "Operation", link: `${subRoutes.PPRKF.operation}` },
     { img: service, text: "Service Accessories", link: "/service" },
   ];
   const datas = menus.map((menu) => (

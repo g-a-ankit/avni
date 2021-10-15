@@ -52,10 +52,12 @@ const Steps = () => {
     } else setSuccess(false);
   }, [step]);
   if (redirect) {
-    return <Redirect to="/operation" />;
+    return <Redirect to={subRoutes.PPRKF.operation} />;
   }
   if (step === 5) {
-    return <RepeatCard repeat={repeatHandler} menu="/operation" />;
+    return (
+      <RepeatCard repeat={repeatHandler} menu={subRoutes.PPRKF.operation} />
+    );
   }
   return (
     <SCADA>

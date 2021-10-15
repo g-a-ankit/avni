@@ -48,7 +48,9 @@ const Steps = () => {
     }
   }, [step, count]);
   if (step === 4) {
-    return <RepeatCard repeat={repeatHandler} menu="/operation" />;
+    return (
+      <RepeatCard repeat={repeatHandler} menu={subRoutes.PPRKF.operation} />
+    );
   }
 
   if (step === 1)

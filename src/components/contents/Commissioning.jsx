@@ -19,6 +19,7 @@ import back from "../../assets/images/back.png";
 import Pre from "./Commissioning/1";
 import Post from "./Commissioning/2";
 import "./menu.css";
+import { subRoutes } from "../../common/constants";
 
 const Commissioning = () => {
   const [redirect, setRedirect] = useState(false);
@@ -28,7 +29,7 @@ const Commissioning = () => {
   };
   let { path, url } = useRouteMatch();
   if (redirect) {
-    return <Redirect to="/menu" />;
+    return <Redirect to={subRoutes.PPRKF.menu} />;
   }
 
   return (
