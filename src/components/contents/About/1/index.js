@@ -7,6 +7,8 @@ import img3 from "../../../../assets/images/menu/operations/home/3.png";
 import back from "../../../../assets/images/back.png";
 import logo from "../../../../assets/images/salvin logo.svg";
 import styled from "styled-components";
+import { subRoutes } from "../../../../common/constants";
+
 const Overview = () => {
   const [redirect, setRedirect] = useState(false);
   const goBack = () => {

@@ -21,7 +21,7 @@ import { subRoutes } from "./common/constants";
 
 function App() {
   return (
-    <Router basename="/PPRKF">
+    <Router>
       <div className="App">
         <Switch>
           <Route exact path="/">

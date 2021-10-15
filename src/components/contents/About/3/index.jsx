@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { Back } from "../../MenuCards";
 import back from "../../../../assets/images/back.png";
 import caution from "../../../../assets/images/menu/about/caution.png";
+import { subRoutes } from "../../../../common/constants";
 
 const Specifications = () => {
   const [redirect, setRedirect] = useState(false);

@@ -10,7 +10,7 @@ import styled from "styled-components";
 import Product1 from "./Product1";
 import Product2 from "./Product2";
 import Product3 from "./Product3";
-
+import { subRoutes } from "../../../../common/constants";
 const Identification = () => {
   const [redirect, setRedirect] = useState(false);
   const [change, setChange] = useState(0);
