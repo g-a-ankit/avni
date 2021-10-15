@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="234.631" height="185.608" viewBox="0 0 234.631 185.608">
+  <defs>
+    <filter id="Path_114" x="0" y="7.341" width="160.873" height="170.926" filterUnits="userSpaceOnUse">
+      <feOffset dy="37" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feFlood flood-color="#fc629d" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_3" x="63.819" y="0" width="170.812" height="185.608" filterUnits="userSpaceOnUse">
+      <feOffset dy="37" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur-2"/>
+      <feFlood flood-color="#0ea2e8" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="arrow" transform="translate(-842.685 -776.063)">
+    <g transform="matrix(1, 0, 0, 1, 842.68, 776.06)" filter="url(#Path_114)">
+      <path id="Path_114-2" data-name="Path 114" d="M45.153,14.924a10,10,0,0,1,17.3,0L98.9,77.8a10,10,0,0,1-8.651,15.015h-72.9A10,10,0,0,1,8.7,77.8Z" transform="translate(131.81 2) rotate(90)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 842.68, 776.06)" filter="url(#Polygon_3)">
+      <path id="Polygon_3-2" data-name="Polygon 3" d="M45.153,14.924a10,10,0,0,1,17.3,0L98.9,77.8a10,10,0,0,1-8.651,15.015h-72.9A10,10,0,0,1,8.7,77.8Z" transform="translate(195.63 2) rotate(90)" fill="#fff" opacity="0.38"/>
+    </g>
+  </g>
+</svg>

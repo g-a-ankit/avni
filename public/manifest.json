@@ -1,0 +1,9 @@
+{
+  "short_name": "Designed & Developed by Aplos",
+  "name": "Designed & Developed by Aplos",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

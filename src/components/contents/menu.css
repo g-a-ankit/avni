@@ -1,0 +1,91 @@
+.alice-carousel {
+  margin: 0 !important;
+  display: none;
+}
+
+.alice-carousel__prev-btn [data-area]::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  max-width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  background-image: url("../../assets/images/backarrow.png");
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.alice-carousel__next-btn [data-area]::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  max-width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  background-image: url("../../assets/images/frontarrow.png");
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.pointers {
+  list-style: none;
+}
+
+.pointers li div {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  max-width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
+  background-image: url("../../assets/images/bullet.svg");
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.pointers li {
+  font-family: "Gotham", "serif";
+  font-weight: 400;
+  /* color: #ee3171; */
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  align-items: center;
+  margin: 10px;
+}
+
+.logo {
+  background-image: url("../../assets/images/bullet.svg");
+
+  width: 73px;
+}
+.logo-wrap {
+  width: calc(100%);
+  position: absolute;
+  bottom: 0;
+  /* left: -100px; */
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  background: #ff0707;
+  border-radius: 50%;
+}
+
+.circle.active {
+  width: 50px;
+  height: 50px;
+  transition: all 0.7s ease-in-out;
+}
+.operation-2 .active {
+  background: linear-gradient(to bottom, #ec1f35, #000000);
+  color: white;
+}
+
+.operation-3 .active {
+  background: red;
+}
