@@ -2,6 +2,9 @@ export const baseRoutes = {
   PPRKF: {
     base: "/PPRKF",
   },
+  CSRCSI: {
+    base: "/CSRCSI",
+  },
 };
 
 export const subRoutes = {

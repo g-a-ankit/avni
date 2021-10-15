@@ -17,36 +17,40 @@ import Commissioning from "./components/contents/Commissioning";
 import Installation from "./components/contents/Installation";
 import Service from "./components/contents/Service";
 import "./components/contents/menu.css";
-import { subRoutes } from "./common/constants";
+import { subRoutes, baseRoutes } from "./common/constants";
+import CommingSoon from "./components/CommingSoon";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Switch>
-          <Route exact path="/">
+          <Route exact path={baseRoutes.PPRKF.base}>
             <Home />
           </Route>
           <Route exact path={subRoutes.PPRKF.menu}>
             <Menu />
           </Route>
-          <Route path={subRoutes.PPRKF.operation}>
+          <Route exact path={subRoutes.PPRKF.operation}>
             <Operation />
           </Route>
-          <Route path={subRoutes.PPRKF.about}>
+          <Route exact path={subRoutes.PPRKF.about}>
             <About />
           </Route>
-          <Route path={subRoutes.PPRKF.prerequisites}>
+          <Route exact path={subRoutes.PPRKF.prerequisites}>
             <Prerequisites />
           </Route>
-          <Route path={subRoutes.PPRKF.commissioning}>
+          <Route exact path={subRoutes.PPRKF.commissioning}>
             <Commissioning />
           </Route>
-          <Route path={subRoutes.PPRKF.installation}>
+          <Route exact path={subRoutes.PPRKF.installation}>
             <Installation />
           </Route>
           <Route exact path={subRoutes.PPRKF.service}>
             <Service />
+          </Route>
+          <Route exact path={baseRoutes.CSRCSI.base}>
+            <CommingSoon />
           </Route>
           <Route>
             <h3>Page not found</h3>
