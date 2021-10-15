@@ -22,7 +22,7 @@ const Connections = () => {
     setRedirect(true);
   };
   if (redirect) {
-    return <Redirect to="/installation" />;
+    return <Redirect to={subRoutes.PPRKF.installation} />;
   }
 
   return (
