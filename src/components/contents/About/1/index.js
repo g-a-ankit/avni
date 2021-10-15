@@ -14,7 +14,7 @@ const Overview = () => {
     setRedirect(true);
   };
   if (redirect) {
-    return <Redirect to="/about" />;
+    return <Redirect to={subRoutes.PPRKF.about} />;
   }
 
   return (

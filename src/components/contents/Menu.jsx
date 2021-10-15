@@ -29,7 +29,7 @@ const responsive = {
 
 const Menu = () => {
   const menus = [
-    { img: about, text: "About Device", link: "/about" },
+    { img: about, text: "About Device", link: `${subRoutes.PPRKF.about}` },
     {
       img: prerequisites,
       text: "Prerequisites & Safety",

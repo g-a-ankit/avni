@@ -23,7 +23,7 @@ const Identification = () => {
     <Product3 goBack={goBack} />,
   ];
   if (redirect) {
-    return <Redirect to="/about" />;
+    return <Redirect to={subRoutes.PPRKF.about} />;
   }
   if (change) {
     return page[change - 1];

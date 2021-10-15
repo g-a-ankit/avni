@@ -8,7 +8,7 @@ import caution from "../../../../assets/images/menu/about/caution.png";
 const Specifications = () => {
   const [redirect, setRedirect] = useState(false);
   if (redirect) {
-    return <Redirect to="/about" />;
+    return <Redirect to={subRoutes.PPRKF.about} />;
   }
   return (
     <Wrap className="transition-left">
