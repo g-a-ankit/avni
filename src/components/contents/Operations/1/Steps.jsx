@@ -18,6 +18,7 @@ import {
   ImageWrap,
 } from "../Operations";
 
+import { subRoutes } from "../../../../common/constants";
 const data = [
   {
     img: img1,

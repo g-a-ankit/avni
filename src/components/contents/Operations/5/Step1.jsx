@@ -7,7 +7,7 @@ import historical from "../../../../assets/images/menu/operations/op-5/historica
 import styled from "styled-components";
 import Button from "../../../Button";
 import { SCADA, Image, Img, Text } from "./../Operations";
-
+import { subRoutes } from "../../../../common/constants";
 const Step1 = ({ stepChange }) => {
   const history = useHistory();
 

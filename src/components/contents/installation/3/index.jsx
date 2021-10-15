@@ -7,6 +7,7 @@ import { Body, Card, Wrap, Circles, Next } from "../../Operations/Operations";
 import { Grid, Back } from "../../MenuCards";
 import grid from "../../../../assets/images/grid.svg";
 import { Table, Heading, Row, T1, T2, CardWrap, Title, Content } from "./../1";
+import { subRoutes } from "../../../../common/constants";
 
 const Setting = () => {
   const [redirect, setRedirect] = useState(false);

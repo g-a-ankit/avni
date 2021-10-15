@@ -6,7 +6,7 @@ import img from "../../../../assets/images/menu/operations/op-4/3.png";
 import manual from "../../../../assets/images/menu/operations/op-4/manual.png";
 import styled from "styled-components";
 import { Next, SCADA, Image, Img, Text } from "../Operations";
-
+import { subRoutes } from "../../../../common/constants";
 const Step3 = ({ stepChange }) => {
   const history = useHistory();
 

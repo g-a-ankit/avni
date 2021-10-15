@@ -12,7 +12,7 @@ import img2 from "../../../../assets/images/menu/prerequisites/4/2.png";
 import img3 from "../../../../assets/images/menu/prerequisites/4/3.png";
 import img4 from "../../../../assets/images/menu/prerequisites/4/4.png";
 import img5 from "../../../../assets/images/menu/prerequisites/4/5.png";
-
+import { subRoutes } from "../../../../common/constants";
 const Risk = () => {
   const [redirect, setRedirect] = useState(false);
 

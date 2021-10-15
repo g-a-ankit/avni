@@ -5,7 +5,7 @@ import img3 from "../../../../assets/images/menu/operations/home/3.png";
 import React from "react";
 import styled from "styled-components";
 import Button from "../../../Button";
-
+import { subRoutes } from "../../../../common/constants";
 const Scada1 = () => {
   return (
     <SCADA>

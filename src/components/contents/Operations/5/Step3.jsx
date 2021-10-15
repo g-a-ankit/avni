@@ -7,7 +7,7 @@ import print from "../../../../assets/images/menu/operations/op-5/print.png";
 import styled from "styled-components";
 import Button from "../../../Button";
 import { SCADA, Image, Img, Text } from "../Operations";
-
+import { subRoutes } from "../../../../common/constants";
 const Step1 = ({ stepChange, stepBack }) => {
   return (
     <SCADA>

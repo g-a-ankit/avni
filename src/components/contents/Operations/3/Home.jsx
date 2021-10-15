@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Steps from "./Steps";
 import styled from "styled-components";
-
+import { subRoutes } from "../../../../common/constants";
 const Home = () => {
   return (
     <>

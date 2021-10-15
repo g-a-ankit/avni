@@ -19,7 +19,7 @@ import back from "../../../../assets/images/back.png";
 import salvin from "../../../../assets/images/salvin logo.svg";
 import grid from "../../../../assets/images/grid.svg";
 import styled from "styled-components";
-
+import { subRoutes } from "../../../../common/constants";
 const Home = () => {
   let history = useHistory();
   const goToPreviousPath = () => {

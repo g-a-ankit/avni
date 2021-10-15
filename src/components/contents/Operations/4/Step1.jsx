@@ -8,7 +8,7 @@ import styled from "styled-components";
 import Button from "../../../Button";
 import RepeatCard from "../../RepeatCard";
 import { Next, SCADA, Image, Img, Text } from "../Operations";
-
+import { subRoutes } from "../../../../common/constants";
 const Step1 = ({ stepChange }) => {
   const history = useHistory();
 

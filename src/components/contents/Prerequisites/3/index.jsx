@@ -10,7 +10,7 @@ import img2 from "../../../../assets/images/menu/prerequisites/1/2.png";
 import img3 from "../../../../assets/images/menu/prerequisites/1/3.png";
 import img4 from "../../../../assets/images/menu/prerequisites/1/4.png";
 import styled from "styled-components";
-
+import { subRoutes } from "../../../../common/constants";
 const data = [
   {
     img: img1,

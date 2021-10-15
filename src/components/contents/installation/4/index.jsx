@@ -6,7 +6,7 @@ import logo from "../../../../assets/images/salvin logo.svg";
 import styled from "styled-components";
 import { Back } from "../../MenuCards";
 import { Wrapper, Image, Text, Bar } from "../2";
-
+import { subRoutes } from "../../../../common/constants";
 const Connections = () => {
   const [redirect, setRedirect] = useState(false);
 

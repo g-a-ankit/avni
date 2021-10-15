@@ -13,7 +13,7 @@ import styled from "styled-components";
 import RepeatCard from "../../RepeatCard";
 import { Next, SCADA, Image, Img, Text } from "../Operations";
 import Steps1 from "./Steps1";
-
+import { subRoutes } from "../../../../common/constants";
 const data = [
   {
     img: [img2],

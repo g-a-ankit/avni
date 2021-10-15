@@ -5,7 +5,7 @@ import { Redirect } from "react-router-dom";
 import logo from "../../assets/images/salvin logo.svg";
 import curve1 from "../../assets/images/curve1.png";
 import curve2 from "../../assets/images/curve2.png";
-
+import { subRoutes } from "../../common/constants";
 const RepeatCard = (props) => {
   const [redirect, setRedirect] = useState(false);
   if (redirect) {

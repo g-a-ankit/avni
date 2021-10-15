@@ -6,7 +6,7 @@ import machine from "../../../../assets/images/menu/operations/machine.png";
 import Steps from "./Steps";
 import grid from "../../../../assets/images/grid.svg";
 import styled from "styled-components";
-
+import { subRoutes } from "../../../../common/constants";
 const Home = () => {
   const [redirect, setRedirect] = useState(false);
   useEffect(() => {

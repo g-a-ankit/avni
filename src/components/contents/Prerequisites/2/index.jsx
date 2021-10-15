@@ -32,7 +32,7 @@ import img212 from "../../../../assets/images/menu/prerequisites/2/21-2.png";
 import img22 from "../../../../assets/images/menu/prerequisites/2/22.png";
 import img23 from "../../../../assets/images/menu/prerequisites/2/23.png";
 import img24 from "../../../../assets/images/menu/prerequisites/2/24.png";
-
+import { subRoutes } from "../../../../common/constants";
 const Symbol = () => {
   const [redirect, setRedirect] = useState(false);
 

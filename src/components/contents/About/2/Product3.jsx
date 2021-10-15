@@ -14,6 +14,7 @@ import {
   Wrapul,
   BackBtn,
 } from "./Product1";
+import { subRoutes } from "../../../../common/constants";
 const Product2 = ({ goBack }) => {
   return (
     <>

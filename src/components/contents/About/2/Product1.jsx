@@ -4,7 +4,7 @@ import img1 from "../../../../assets/images/menu/about/img1.png";
 import back from "../../../../assets/images/back.png";
 import logo from "../../../../assets/images/salvin logo.svg";
 import styled from "styled-components";
-
+import { subRoutes } from "../../../../common/constants";
 const Product1 = ({ goBack }) => {
   return (
     <>

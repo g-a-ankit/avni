@@ -9,7 +9,7 @@ import Button from "../../../Button";
 import RepeatCard from "../../RepeatCard";
 import { Next, SCADA, Image, Img, Text, ImageWrap } from "../Operations";
 import Steps1 from "../2/Steps1";
-
+import { subRoutes } from "../../../../common/constants";
 const data = [
   {
     img: [img2],
