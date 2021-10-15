@@ -140,7 +140,7 @@ const Symbol = () => {
   ];
 
   if (redirect) {
-    return <Redirect to="/prerequisites" />;
+    return <Redirect to={subRoutes.PPRKF.prerequisites} />;
   }
   return (
     <Wrap className="transition-left">

@@ -40,11 +40,13 @@ const Use = () => {
   };
 
   if (redirect) {
-    return <Redirect to="/prerequisites" />;
+    return <Redirect to={subRoutes.PPRKF.prerequisites} />;
   }
 
   if (step === 5) {
-    return <RepeatCard repeat={repeatHandler} menu="/prerequisites" />;
+    return (
+      <RepeatCard repeat={repeatHandler} menu={subRoutes.PPRKF.prerequisites} />
+    );
   }
   return (
     <Body>

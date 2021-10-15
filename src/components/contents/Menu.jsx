@@ -33,7 +33,7 @@ const Menu = () => {
     {
       img: prerequisites,
       text: "Prerequisites & Safety",
-      link: "/prerequisites",
+      link: `${subRoutes.PPRKF.prerequisites}`,
     },
     { img: commissioning, text: "Commissioning", link: "/commissioning" },
     { img: installation, text: "Installation", link: "/installation" },

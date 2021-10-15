@@ -36,7 +36,7 @@ function App() {
           <Route path={subRoutes.PPRKF.about}>
             <About />
           </Route>
-          <Route path="/prerequisites">
+          <Route path={subRoutes.PPRKF.prerequisites}>
             <Prerequisites />
           </Route>
           <Route path="/commissioning">
