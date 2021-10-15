@@ -26,7 +26,7 @@ const Post = () => {
   ];
 
   if (redirect) {
-    return <Redirect to="/commissioning" />;
+    return <Redirect to={subRoutes.PPRKF.commissioning} />;
   }
   return (
     <Body className="transition-left">

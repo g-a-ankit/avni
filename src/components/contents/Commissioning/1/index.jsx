@@ -38,7 +38,7 @@ const Pre = () => {
   ];
 
   if (redirect) {
-    return <Redirect to="/commissioning" />;
+    return <Redirect to={subRoutes.PPRKF.commissioning} />;
   }
   return (
     <StyledBody className="transition-left">

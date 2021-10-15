@@ -35,7 +35,11 @@ const Menu = () => {
       text: "Prerequisites & Safety",
       link: `${subRoutes.PPRKF.prerequisites}`,
     },
-    { img: commissioning, text: "Commissioning", link: "/commissioning" },
+    {
+      img: commissioning,
+      text: "Commissioning",
+      link: `${subRoutes.PPRKF.commissioning}`,
+    },
     { img: installation, text: "Installation", link: "/installation" },
     { img: operation, text: "Operation", link: `${subRoutes.PPRKF.operation}` },
     { img: service, text: "Service Accessories", link: "/service" },

@@ -39,7 +39,7 @@ function App() {
           <Route path={subRoutes.PPRKF.prerequisites}>
             <Prerequisites />
           </Route>
-          <Route path="/commissioning">
+          <Route path={subRoutes.PPRKF.commissioning}>
             <Commissioning />
           </Route>
           <Route path="/installation">
